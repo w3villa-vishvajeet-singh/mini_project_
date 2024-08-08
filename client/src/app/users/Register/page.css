@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(234,240,252,255);
+}
+
+.form_component{
+
+height: 900px;
+background-color: rgba(243,244,246,255)!important ;
+margin: 50px;
+position: relative;
+
+}
+
+.form{
+    
+    position: absolute;
+    right: 9vw;
+    top: 100px;
+    height: 568px;
+    width: 501px;
+    background-color: white;
+   z-index: 10;
+}
+
+.status{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+    position: absolute;
+        top: 5px;
+}
+.form{
+    border: 2px solid black;
+}
+
+.user_name ,.email , .phone , .confirm_password , .password{
+      margin-left: 15px;
+    margin-top: 19px;
+}
+
+.user_name label {
+
+margin-right: 88px
+
+}
+.label_margin_email{
+    margin-right: 110px
+
+
+}
+.label_margin_phone{
+
+margin-right: 94px;
+}
+
+.label_margin_password{
+    margin-right: 92px;  
+}
+
+.label_margin_confrim_password{
+    margin-right: 30px;
+}
+input{
+    height: 30px;
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+label{
+    margin-bottom: 10px;
+}
+.submit{
+    position: absolute;
+    left: 50px;
+height: 35px;
+bottom: 10px;
+width: 70px;
+border: none;
+background-color: rgb(137, 152, 167);
+cursor: pointer;
+}
+.heading {
+    position: relative;
+}
+
+
+
+.authentication{
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+    top: 100px;
+    left: 89px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    height: 564px;
+    justify-content: center;
+    width: 499px;
+
+    z-index: 10;
+}
+
+.box{
+    height: 50px;
+    background-color: white;
+margin: 20px;
+width: 300px;
+border: 0.5px solid black;
+
+}
+.box h4 {
+text-align: center;
+padding-top: 10px;
+cursor: pointer;
+}
+.text_heading{
+
+display: flex;
+justify-content: center;
+margin-top: 20px;
+padding-top: 30px;
+text-decoration:underline;
+
+
+}
+.already_user{
+
+    margin-left: 8px;
+    margin-top: 20px;
+  text-wrap: wrap;
+
+}
+
+.google{
+
+color: rgb(0, 140, 255);
+}
+.github{
+    color: black;   
+}
+
+.red{
+    color: red;
+}
+
+h3{
+    color:white;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+
+}
+

@@ -1,0 +1,41 @@
+*{
+    background-color: rgba(234,240,252,255);
+}
+
+.verification{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+.status{
+
+   border: 2px solid black;
+   height: 200px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding-left: 10px;
+ padding-right: 10px;
+
+
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.continue_btn{
+
+    height: 40px;
+    margin-left: 20px;
+    color:black;
+    background-color:  rgb(0, 140, 255);
+    cursor: pointer;
+width: 80px;
+}

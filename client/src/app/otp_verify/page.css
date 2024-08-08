@@ -1,0 +1,35 @@
+*{
+    background-color: rgba(234,240,252,255);
+}
+
+.heading{
+
+font-size: 40px;    
+
+}
+.cheack_validation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    height: 100px;
+    margin-left: 20px;  
+    width: 100px;
+    border-radius: 10px
+}
+
+.submit{
+
+    height: 80px;
+    color: black;
+    background-color:rgb(12, 145, 168);
+    margin-left: 40px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+}
